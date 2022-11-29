@@ -4,38 +4,31 @@
 
 <head>
 	<style>
-.Container{
+#flex-Container{
     display:flex;
-    background-color:rgb(235, 160, 160);
-    flex-wrap: wrap;
     justify-content: space-between;
-    height:45vh;
-   
+    width: 400px;
+    height: 100px;
+    flex-wrap: Wrap;
+    background-color:brown
 }
-.items{
-    background-color:orange;
-    width:100px;
+#flex-Container div{
+    width: 100px;
     height:100px;
-    text-align: center;
-    margin:0;
-    border:0;
 }
+
     </style>
 	
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-   <div class="Container">
-    <div class="items">box1</div>
-    <div class="items">box2</div>
-    <div class="items">box3</div>
-    <div class="items">box4</div>
-    <div class="items">box5</div>
-    <div class="items">box6</div>
-    <div class="items">box7</div>
-    <div class="items">box8</div>
-   </div>
-	
+  <div id="flex-Container">
+    <div style="background-color:coral;">1</div>
+  <div style="background-color:lightblue;">2</div>
+  <div style="background-color:pink;">3</div>
+  <div style="background-color:rgb(236, 123, 142);">4</div>
+  <div style="background-color:rgb(80, 14, 25);">5</div>
+    </div>
     <script type="text/javascript" src="./script.js">
 </script>
 
